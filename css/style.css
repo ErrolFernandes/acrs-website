@@ -1,0 +1,1160 @@
+::after,::before,*{
+ box-sizing: border-box;
+}
+:root {
+  --primary-color: indigo;
+}
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  width: 100%;
+   }
+   html{
+     width: 100%;
+   }
+   
+header{
+    background-size: relative;
+    background-position: center;
+    min-height: 125px;
+    background-color:var(--primary-color);
+    }
+    .photo{
+      display: flex;
+      flex-direction: column;
+      
+      text-align: center;
+      
+    }
+  .img{
+    width:320px;
+    height: 250px;
+    margin: 60px;
+  }
+    .addresss a{
+      color: var(--primary-color);
+    }
+    ol li >a{
+      color: black;
+    }
+    .sectionn{
+      display: none;
+    }
+    .back{
+      color: var(--primary-color);
+      padding: 20px;
+      position: relative;
+      text-align: end;
+    }
+    .material-icons{
+      background-color: var(--primary-color);
+    }
+  
+        
+    .page-footer{
+    background-color: var(--primary-color);
+    }
+    .footer-copyright{
+      background-color: var(--primary-color);
+    }
+    #search{
+    background-color: white;
+    border-radius: 25px;
+    height: 30px;
+    
+    }
+    #search[type~="text"]{
+      padding-left: 15px;
+    }
+    .material-icons{
+      position: relative;
+      bottom: 10px;
+    }
+    
+    .right{
+      padding-top: 20px;
+    }
+
+     #services{
+      border-style:groove;
+      border-color:var(--primary-color) ;
+      border-radius: 15px;
+      margin-top: 10px;     
+     } 
+   
+    #home:hover{
+      background-color: white;
+      color:var(--primary-color);
+      border-radius: 25px;
+      display: inline;
+      padding: 12px;     
+    }
+    
+    #servicess{
+      margin-left: 10px;
+    }
+   
+    #servicess:hover{
+      background-color: white;
+      color:var(--primary-color);
+      border-radius: 25px;
+      display: inline;
+      padding: 12px;
+    }
+     .documents object{
+       margin-left: 100px;
+       margin-bottom: 60px;
+      border-bottom: black;
+     }
+     #topend{
+      font-size: xx-large;
+      font-weight: bold;
+    }
+    
+    #clients:hover{
+      background-color: white;
+      color:var(--primary-color);
+      border-radius: 25px;
+      display: inline;
+      padding: 12px;
+    }
+    #clients{
+      margin-left: 10px;
+    }
+
+    #contacts:hover{
+      background-color: white;
+      color:var(--primary-color);
+      border-radius: 25px;
+      display: inline;
+      padding: 12px;
+    }
+    #contact{
+      margin-left: 10px;
+    }
+
+    #submit{
+      background-color: var(--primary-color);
+    }
+    #submit[type~="text"]{
+      color: #fff;
+    }
+    nav ul a{
+      display: inline;
+      padding-left: 10px;
+    }
+
+    .card{
+        background-color: var(--primary-color);
+      
+      }
+      .top{
+        color: var(--primary-color);
+      }
+ 
+   .card-title{
+     color: var(--primary-color);
+   }
+  
+  .flip-card {
+    background-color:transparent;
+    width: 250px;
+    height: 200px;
+    perspective: 100000px;
+    margin-bottom: 90px;
+    /* border-radius: 300px; */
+    
+    }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 140%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  
+    }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+   
+  }
+  
+  .flip-card-front {
+    background-color: rgb(240, 233, 245);
+    
+    margin-bottom: 90px;
+    z-index: 0;
+
+  }
+  
+  .flip-card-back {
+    background-color: var(--primary-color);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  div.card-content-white{
+    border-radius: 20px;
+  } 
+ 
+  #services ul li{
+    padding-left: 20px;
+  }
+  #flippy{
+    margin-left: 70px;
+  }
+  .ourss{
+    color: var(--primary-color);
+  }
+
+    #bot{
+      background-color: var(--primary-color);
+    }
+
+    .card{
+        background-color: var(--primary-color);
+    }
+
+    .page-footer{
+      background-color: indigovar(--primary-color);
+    }
+
+  
+
+    .clie{
+       color: var(--primary-color);
+    }
+
+    #edit{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+   .input-field{
+    padding-top: 18px;  
+  }
+
+  .label-icon{
+    color: black;
+  }
+ 
+  #sub{
+    margin-left: 180px;
+    background-color: var(--primary-color);
+    }
+
+#edit{
+   margin-top: 20px;  
+}
+
+#foot{
+   margin-top: 20px;
+   
+}
+input {
+    width: 100%;
+  }
+  nav form {
+    height: 5;
+}
+#menuu{
+  padding-top: 7px;
+}
+#submt{
+  background: white;
+  color: var(--primary-color);
+  text-align: center;
+  margin-left: 40px;
+  font-weight: bold;
+  
+}
+#servies{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#collections{
+  border-color: var(--primary-color);
+}
+#data-tar{
+margin-top: 20px;
+margin-left: 130px;
+background: var(--primary-color);
+}
+#data-targ{
+ margin-left: 50px;
+ margin-top: 20px;
+ background: var(--primary-color);
+}
+#adding{
+  margin-left: -70px;
+  margin-top: 20px;
+  background: var(--primary-color);
+}
+#cont{
+  
+  color: var(--primary-color);
+}
+#submitt{
+  background: var(--primary-color);
+  margin-left: 50px;
+}
+#thingss{
+  color: var(--primary-color);
+  margin-left: 30px;
+}
+.addresss{
+  margin-left: 49px;
+}
+#clientss{
+  color: var(--primary-color);
+}
+.ser{
+  color: var(--primary-color);
+}
+#mobile{
+  color: var(--primary-color);
+}
+#services{
+  margin-bottom: 40px;
+
+}
+.certificate{
+  margin-bottom: 50px;
+}
+body{
+  background-color: rgb(240, 233, 245);
+}
+.ct{
+  color: var(--primary-color);
+  font-weight:bold;
+}
+
+.addin{
+  font: bold;
+  background: var(--primary-color);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: transparent;
+}
+.certinames{
+  color: var(--primary-color);
+}
+.btnss a{
+  color: white;
+}
+.btnss a:hover{
+  color: black;
+
+}
+.btnss{
+  
+  padding: 5px;
+  background-color: var(--primary-color);
+  z-index: 0;
+  border-radius: 4px;
+ 
+}
+.btnss:hover{
+  background-color:  rgb(240, 233, 245);
+ 
+}
+.down{
+  font-weight:600;
+  color: var(--primary-color);
+}
+element.style {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 389pt;
+}
+.topp {
+  color: var(--primary-color);
+
+}
+.ser{
+  font-size: xx-large;
+}
+.ivan{
+  text-align: right;
+  margin-right: 20px;
+ }
+.our_services{
+ padding-left: 40px;
+}
+@media only screen and (max-width: 1251px) and (min-width:1400px){
+ 
+  .ivan{
+    text-align: right;
+  }
+   .sectionnn{
+  display: block;
+  
+  }
+  .row_certificates{
+    position: relative;
+    right: 35px;
+  }
+ .img{
+  width:250px;
+  height: 250px;
+  margin: 10px;
+ }
+}
+@media only screen and (max-width: 1250px) and (min-width:900px) {
+  .material-icons{
+    position: relative;
+    bottom: 10px;
+  }
+.ivan{
+ text-align: right;
+}
+ .sectionnn{
+display: block;
+
+}
+.row_certificates{
+  position: relative;
+  right: 35px;
+}
+.img{
+  width:300px;
+  height: 250px;
+  margin: 10px;
+}
+}
+@media only screen and (max-width: 651px) and (min-width:899px){
+.material-icons{
+  position: relative;
+  bottom: 10px;
+}
+}
+@media only screen and (max-width: 650px) and (min-width:500px) {
+
+  #thingss{
+    position: relative;
+    right: 18px;
+  }
+  .material-icons{
+    position: relative;
+    bottom: 10px;
+  }
+  .full-content{
+    margin-left: 25px;
+  }
+  section{
+    margin-right: 20px;
+  }
+  .ourss{
+    padding-left:170px;
+  }
+  html{
+    max-width: 100%;
+    
+  }
+  .photo{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    
+  }
+.img{
+  width:150px;
+  height: 120px;
+  margin: 10px;
+}
+
+  #services{
+    margin-left: 0;
+    margin-right: 0px;
+    position: relative;
+    left: 25px;
+  }
+ 
+  .our_services{
+    position: relative;
+    left: 12px;
+    color: var(--primary-color);
+    top: 30px;
+    padding-left: 0px;
+  }
+ 
+ .backtxt{
+  position: relative;
+  top: 28px;
+ padding: 15px;
+ }
+ .ivan{
+  text-align: right;
+ }
+
+  
+  .addresss{
+    margin-left: 0;
+    position: relative;
+    left: 36px;
+  }
+  .ser{
+    font-size: xx-large;
+  }
+
+      nav .brand-logo {
+        position:relative;
+        color: #fff;
+        display: inline-block;
+          font-size: 20px; 
+        padding: 0;
+      }
+      .topp{
+        color: var(--primary-color);
+        margin-top: 0px;
+      }
+      html{
+       margin: 0 auto;
+      }
+      .certificate{
+        margin-bottom: 0px;
+        padding: 20px;
+      }
+       #acme img{
+        border-style: none;
+        height: 25;
+        width: 20;      
+    }
+    .sectionnn{
+      display: none;
+    }
+    .sectionn{
+      display:block;
+    }
+    .row_download{
+      text-align: center;
+    }
+    .sectionn h6{
+      font-weight: bold;
+    }
+      #search{
+      background-color: white;
+      border-radius: 25px;
+      height: 30px;
+      width: 130px;
+      }
+   
+      #services h2{
+        text-align: center;
+        margin-top: 10px;
+      }
+      .documents object{
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 0px;     
+      }
+      .download{
+        position: relative;
+        left:120px
+      }
+      #topend{
+        font-size: 40px;
+      }
+    #contact{
+      padding-right: 40px;
+    }
+    .tocen{
+     padding-left: 300px;
+    }
+    #standard{
+      padding-left: 0px;
+      padding-right: 0px;
+      
+    }
+    .mane h3{
+      color: var(--primary-color);
+    }
+    .tabb{
+      margin-left:0px ;
+    }
+    #flippy{
+      position: relative;
+      right: 60px;
+    }
+  #things{
+        text-align: center;
+        margin-top: 0px;        
+      }
+      #images{
+        margin-top: 30px;
+      }
+      #tocenter{
+        align-items: center;
+      }
+      .flip-card {
+        border-radius: 300px;
+        margin-bottom: 80px;
+        margin-top: 30px;
+      }
+       #flippy{
+      display: grid;
+      grid-template-columns:repeat(2,270px);
+
+      }
+     
+      #cont{
+      text-align: center;
+      }
+      #sub{
+      margin-left: 40%;
+      }
+      #submt{
+      margin-left: 10px;
+
+      }
+   
+}
+
+
+@media only screen and (max-width: 499px)and (min-width:395px) {
+  .material-icons{
+    position: relative;
+    bottom: 10px;
+    margin-top: 10px;
+  }
+  #thingss{
+    position: relative;
+    right: 18px;
+  }
+  .photo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+.img{
+  width:120px;
+  height: 100px;
+  margin: 10px;
+}
+  html{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .our_services{
+  text-align: center;
+  }
+ 
+ .backtxt{
+  position: relative;
+  top: 28px;
+ padding: 15px;
+ }
+ .ivan{
+  text-align: right;
+ }
+
+  
+  .addresss{
+    margin-left: 0;
+    position: relative;
+    left: 36px;
+  }
+  .ser{
+    font-size: xx-large;
+  }
+
+      nav .brand-logo {
+        position:relative;
+        color: #fff;
+        display: inline-block;
+          font-size: 20px; 
+        padding: 0;
+      }
+      .topp{
+        color: var(--primary-color);
+        margin-top: 0px;
+      }
+      html{
+       margin: 0 auto;
+      }
+      .certificate{
+        margin-bottom: 0px;
+        padding: 20px;
+      }
+       #acme img{
+        border-style: none;
+        height: 25;
+        width: 20;      
+    }
+    .sectionnn{
+      display: none;
+    }
+    .sectionn{
+      display:block;
+    }
+    .sectionn h6{
+      font-weight: bold;
+    }
+      #search{
+      background-color: white;
+      border-radius: 25px;
+      height: 30px;
+      width: 130px;
+      }
+   
+      #services h2{
+        text-align: center;
+        margin-top: 10px;
+      }
+      .documents object{
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 0px;     
+      }
+      .download{
+        position: relative;
+        left:30px
+      }
+    #contact{
+      padding-right: 40px;
+    }
+    .tocen{
+     padding-left: 300px;
+    }
+    #standard{
+      padding-left: 0px;
+      padding-right: 0px;
+      
+    }
+    .mane h3{
+      color: var(--primary-color);
+    }
+    .tabb{
+      margin-left:0px ;
+    }
+    #flippy{
+      padding-left: 25px;
+    }
+  #things{
+        text-align: center;
+        margin-top: 0px;        
+      }
+      #images{
+        margin-top: 30px;
+      }
+      #tocenter{
+        align-items: center;
+      }
+      .flip-card {
+        border-radius: 300px;
+        margin-bottom: 80px;
+        margin-top: 30px;
+      }
+       #flippy{
+      margin-left: 50px;
+      }
+     
+      #cont{
+      text-align: center;
+      }
+      #sub{
+      margin-left: 40%;
+      }
+      #submt{
+      margin-left: 10px;
+
+      }
+   
+}
+
+/* air css */
+@media only screen and (max-width: 394px) and (min-width:361px) {
+  .material-icons{
+    position: relative;
+    bottom: 25px;
+    right: 10px;
+    margin-top: 10px;
+  }
+  #thingss{
+    position: relative;
+    right: 18px;
+  }
+  #servicees{
+    margin: 0px;
+  }
+  .photo{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    
+  }
+.img{
+  width:120px;
+  height: 100px;
+  margin: 10px;
+}
+  html{
+    max-width: 100%;
+  }
+ #thingss{
+   margin-top: 0px;
+ }
+ #service{
+   padding-top: 0;
+   
+ }
+
+  .our_services{
+   text-align: center;
+  }
+  .aboutp{
+    font-size: 13px;
+  }
+ 
+ .backtxt{
+  position: relative;
+  top: 28px;
+ padding: 15px;
+ }
+ .ivan{
+  text-align: right;
+ }
+#topend{
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-left: 25px;
+  padding-top:20px ;
+  padding-bottom: 20px;
+}
+  
+  .addresss{
+    margin-left: 0;
+    position: relative;
+    left: 3px;
+  }
+  .ser{
+    font-size: xx-large;
+  }
+  .qualitySer{
+    margin-left:19px ;
+    margin-top: 0px;
+  }
+  #contact{
+    margin-left:35px ;
+    margin-top: 0px;
+  }
+  .certificate{
+    margin-left:19px ;
+    margin-top: 0px;
+  }
+  #flippy{
+    position: relative;
+    right: 22px;
+  }
+      nav .brand-logo {
+        position:relative;
+        color: #fff;
+        display: inline-block;
+          font-size: 20px; 
+        padding: 0;
+      }
+      .topp{
+        color: var(--primary-color);
+        margin-top: 0px;
+      }
+      html{
+       margin: 0 auto;
+      }
+      .certificate{
+        margin-bottom: 0px;
+        padding: 20px;
+      }
+       #acme img{
+        border-style: none;
+        height: 25;
+        width: 20;      
+    }
+    .sectionnn{
+      display: none;
+    }
+    .sectionn{
+      display:block;
+    }
+    .sectionn h6{
+      font-weight: bold;
+    }
+      #search{
+      background-color: white;
+      border-radius: 25px;
+      height: 30px;
+      width: 130px;
+      }
+   
+      #services h2{
+        text-align: center;
+        margin-top: 10px;
+      }
+      .documents object{
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 0px;     
+      }
+      .download{
+        position: relative;
+        left:30px
+      }
+    #contact{
+      padding-right: 40px;
+    }
+    .tocen{
+     padding-left: 300px;
+    }
+    #standard{
+      padding-left: 0px;
+      padding-right: 0px;
+      
+    }
+    .mane h3{
+      color: var(--primary-color);
+    }
+    .tabb{
+      margin-left:0px ;
+    }
+    #flippy{
+      padding-left: 25px;
+    }
+  #things{
+        text-align: center;
+        margin-top: 0px;        
+      }
+      #images{
+        margin-top: 30px;
+      }
+      #tocenter{
+        align-items: center;
+      }
+      .flip-card {
+        border-radius: 300px;
+        margin-bottom: 80px;
+        margin-top: 30px;
+      }
+       #flippy{
+      margin-left: 50px;
+      }
+     
+      #cont{
+      text-align: center;
+      }
+      #sub{
+      margin-left: 40%;
+      }
+      #submt{
+      margin-left: 10px;
+
+      }
+   
+}
+
+@media only screen and (max-width: 300px) and (min-width:360px) {
+  .material-icons{
+    position: relative;
+    bottom: 40px;
+    right: 30px;
+    margin-top: 10px;
+  }
+  #thingss{
+    position: relative;
+    right: 18px;
+  }
+  #servicees{
+    margin: 0px;
+  }
+  .photo{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    
+  }
+.img{
+  width:120px;
+  height: 100px;
+  margin: 10px;
+}
+  html{
+    max-width: 100%;
+  }
+ #thingss{
+   margin-top: 0px;
+ }
+ #service{
+   padding-top: 0;
+   
+ }
+
+  .our_services{
+   text-align: center;
+  }
+  .aboutp{
+    font-size: 13px;
+  }
+ 
+ .backtxt{
+  position: relative;
+  top: 28px;
+ padding: 15px;
+ }
+ .ivan{
+  text-align: right;
+ }
+#topend{
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-left: 25px;
+  padding-top:20px ;
+  padding-bottom: 20px;
+}
+  
+  .addresss{
+    margin-left: 0;
+    position: relative;
+    left: 3px;
+  }
+  .ser{
+    font-size: xx-large;
+  }
+  .qualitySer{
+    margin-left:19px ;
+    margin-top: 0px;
+  }
+  #contact{
+    margin-left:35px ;
+    margin-top: 0px;
+  }
+  .certificate{
+    margin-left:19px ;
+    margin-top: 0px;
+  }
+  #flippy{
+    position: relative;
+    right: 22px;
+  }
+      nav .brand-logo {
+        position:relative;
+        color: #fff;
+        display: inline-block;
+          font-size: 20px; 
+        padding: 0;
+      }
+      .topp{
+        color: var(--primary-color);
+        margin-top: 0px;
+      }
+      html{
+       margin: 0 auto;
+      }
+      .certificate{
+        margin-bottom: 0px;
+        padding: 20px;
+      }
+       #acme img{
+        border-style: none;
+        height: 25;
+        width: 20;      
+    }
+    .sectionnn{
+      display: none;
+    }
+    .sectionn{
+      display:block;
+    }
+    .sectionn h6{
+      font-weight: bold;
+    }
+      #search{
+      background-color: white;
+      border-radius: 25px;
+      height: 30px;
+      width: 130px;
+      }
+      #acme{
+        font-size: 30px;
+      }
+   
+      #services h2{
+        text-align: center;
+        margin-top: 10px;
+      }
+      .documents object{
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 0px;     
+      }
+      .download{
+        position: relative;
+        left:30px
+      }
+    #contact{
+      padding-right: 40px;
+    }
+    .tocen{
+     padding-left: 300px;
+    }
+    #standard{
+      padding-left: 0px;
+      padding-right: 0px;
+      
+    }
+    .mane h3{
+      color: var(--primary-color);
+    }
+    .tabb{
+      margin-left:0px ;
+    }
+    #flippy{
+      padding-left: 25px;
+    }
+  #things{
+        text-align: center;
+        margin-top: 0px;        
+      }
+      #images{
+        margin-top: 30px;
+      }
+      #tocenter{
+        align-items: center;
+      }
+      .flip-card {
+        border-radius: 300px;
+        margin-bottom: 80px;
+        margin-top: 30px;
+      }
+       #flippy{
+      margin-left: 50px;
+      }
+     
+      #cont{
+      text-align: center;
+      }
+      #sub{
+      margin-left: 40%;
+      }
+      #submt{
+      margin-left: 10px;
+
+      }
+   
+}
+
